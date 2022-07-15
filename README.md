@@ -3,7 +3,8 @@
 ### _[Demo](http://sks-tic-tac-toc.surge.sh/ "Click me!👀") 👀_
 
 ##### _Screenshot_
-![Tic tac toe game screenshot](https://drive.google.com/file/d/1MgWQSEsoTqJ9yTklhYIqIRGuBjL0MgKT/view?usp=sharing)
+
+![Tic tac toe game screenshot](https://github.com/SawanSharma4u/TicTacToe/blob/24be84dabe52ca438c935597cf559140d9a213bd/src/img/Screenshot%20(396).png)
 
 ## Overview
 
