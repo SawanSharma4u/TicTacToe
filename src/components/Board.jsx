@@ -1,10 +1,16 @@
 import React from "react"
 import Square from "./Square"
 
-function Board({board, handleSquareClick}){
+function Board({board, handleSquareClick, winningSquares}){
     const renderSquare = (position)=>{
+        const isWinningSquare = winningSquares.includes(position);
+
         return(
-            <Square val={board[position]} onClick={()=>handleSquareClick(position)} />
+            <Square 
+                val={board[position]} 
+                onClick={()=>handleSquareClick(position)} 
+                isWinningSquare = {isWinningSquare}
+            />
         );
     };
 
@@ -14,9 +20,6 @@ function Board({board, handleSquareClick}){
                 {renderSquare(0)}
                 {renderSquare(1)}
                 {renderSquare(2)}
-                {/* <Square val={board[1]}>
-                    <p> what if we write something here and wants to access it in board component</p>
-                </Square> */}
             </div>
             <div className="board-row">
                 {renderSquare(3)}
